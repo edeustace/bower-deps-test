@@ -1,4 +1,3 @@
 ## Running
 
-    cd works
     ./run
