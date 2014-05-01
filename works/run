@@ -1,5 +1,31 @@
 #!/usr/bin/env bash
 
+cat << EOF
+
+--------------------------------------
+
+
+This script runs bower twice.
+
+First it installs the dependencies in with-resolutions.json.
+
+Then it runs 'bower install angular-dragdrop'
+
+Expected: 
+
+Bower installs angular-dragdrop and uses jquery 1.11.0
+
+Actual: 
+
+Bower launches the prompt to ask the user to choose which jquery do they want.
+Even though it is specified in the 'resolutions' object in bower.json
+
+--------------
+Note: because bower deletes the resolutions object in the bower.json,
+We need to copy it over again before we run the 2nd bower command.
+---------------------------------------
+EOF
+
 rm -rf bower_components
 
 cp with-resolutions.json bower.json
