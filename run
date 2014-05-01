@@ -30,10 +30,12 @@ rm -rf bower_components
 
 cp with-resolutions.json bower.json
 
+echo "| bower install --------------------------------------"
 bower install
 
-cp with-resolutions.bower.json bower.json
+cp with-resolutions.json bower.json
 
+echo "| bower install angular-dragdrop ---------------------"
 bower install angular-dragdrop
 
 

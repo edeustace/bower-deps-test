@@ -1,8 +1,11 @@
 {
-  "name": "container-client",
-  "version": "0.0.1",
-  "dependencies": {
-    "bootstrap-multiselect": "~0.9.4",
-    "jquery": "1.11.0"
-  }
+    "name": "container-client",
+    "version": "0.0.1",
+    "dependencies": {
+        "bootstrap-multiselect": "~0.9.4",
+        "jquery": "1.11.0"
+    },
+    "resolutions": {
+        "jquery": "1.11.0"
+    }
 }
