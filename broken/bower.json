@@ -1,0 +1,66 @@
+{
+  "name": "container-client",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "~1.2.12",
+    "angular-resource": "~1.2.12",
+    "angular-route": "~1.2.12",
+    "angular-sanitize": "~1.2.12",
+    "angular-animate": "~1.2.12",
+    "angular-ui": "~0.4.0",
+    "angular-ui-sortable": "https://github.com/corespring/ui-sortable.git#2ffb9fc44b30685d58d2df9223b3ad52de215e6f",
+    "select2": "~3.4.5",
+    "angular-ui-select2": "~0.0.5",
+    "angular-bootstrap": "~0.10.0",
+    "angular-ui-router": "0.2.10",
+    "jquery": "1.11.0",
+    "saxjs": "https://github.com/isaacs/sax-js.git",
+    "bootstrap": "~3.1.0",
+    "lodash": "~2.4.1",
+    "corespring-ng-components": "https://github.com/corespring/corespring-ng-components.git#v0.0.7",
+    "ace-builds": "~1.1.1",
+    "angular-ui-ace": "~0.1.0",
+    "console-polyfill": "~0.1.0",
+    "less-elements": "https://github.com/dmitryf/elements.git",
+    "mathjs": "~0.18.0",
+    "wiggi-wiz": "https://github.com/corespring/wiggi-wiz.git#master",
+    "es5-shim": "~2.3.0",
+    "font-awesome": "~4.0.3",
+    "mathjax": "https://github.com/mathjax/MathJax.git"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.12",
+    "angular-scenario": "~1.2.12"
+  },
+  "dependenciesIgnore": {
+    "mathjs": [
+      "**/!(dist)/**"
+    ],
+    "ace-builds": [
+      "**/*.html",
+      "*.txt",
+      "**/!(src-min-noconflict)/**"
+    ],
+    "jsxgraph": [
+      "**/!(distrib)/**"
+    ],
+    "corespring-ng-components": [
+      "**/!(build)/**"
+    ],
+    "angular-ui": [
+      "**/!(build)**"
+    ],
+    "mathjax": [
+      "**/docs/**",
+      "**/test/**",
+      "**/unpacked/**",
+      "**/*.md",
+      "*/**/png/**"
+    ]
+  },
+  "resolutions": {
+    "angular": "~1.2.12",
+    "bootstrap": "~3.1.1",
+    "jquery": "2.x"
+  }
+}
