@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+rm -rf bower_components
+
+cp with-resolutions.json bower.json
+
+bower install
+
+cp with-resolutions.bower.json bower.json
+
+bower install angular-dragdrop
+
+
